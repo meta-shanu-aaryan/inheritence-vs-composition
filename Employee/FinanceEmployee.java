@@ -6,6 +6,9 @@ public class FinanceEmployee extends Employee {
         super(name, basicSalary, bonus, compensation);
     }
 
+    /**
+     * @return name of employee
+     */
     public String getName() {
         return this.name;
     }

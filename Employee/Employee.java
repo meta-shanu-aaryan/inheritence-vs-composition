@@ -20,6 +20,10 @@ public abstract class Employee {
 
     abstract double getCompensation();
 
+    public void getInfo() {
+        System.out.println(this.name);
+    }
+
     public double getTotalSalary() {
         return getBasicSalary() + getBonus() + getCompensation();
     }

@@ -4,6 +4,9 @@ import InheritanceVsComposition.Employee.Employee;
 
 public class Finance extends Department {
 
+    /**
+     * @param departmentName name of department to set
+     */
     public Finance(String departmentName) {
         super(departmentName);
     }

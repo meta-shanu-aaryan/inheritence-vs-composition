@@ -8,6 +8,9 @@ import InheritanceVsComposition.Employee.Employee;
 
 public class Metacube extends Organization {
 
+    /**
+     * @param organizationName to set name of organization
+     */
     public Metacube(String organizationName) {
         super(organizationName);
     }
